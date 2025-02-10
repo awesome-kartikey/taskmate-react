@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", // Build before deploying
-    "deploy": "gh-pages -d build" // Deploy to gh-pages branch
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-  "gh-pages": "^4.0.0" // Or a later version
+  "gh-pages": "^4.0.0" 
 }
 }
